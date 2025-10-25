@@ -60,4 +60,4 @@ jobs:
           SECRET_KEY: dummy-key-for-ci
 
         run: |
-          python manage.py test
+          uv run python manage.py test
